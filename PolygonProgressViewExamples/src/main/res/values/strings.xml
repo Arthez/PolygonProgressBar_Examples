@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Polygon ProgressBar Examples</string>
+    <string name="app_description">This Application shows various examples of PolygonProgressBar element made by Arthez.
+        Click on element to start or stop animation.\n\n
+        Attributes you can change:\n
+        1. Color and Size\n
+        2. Number of polygons\n
+        3. Polygon sides\n
+        4. Animation duration\n
+        5. Polygon stroke size\n
+        6. Polygon animation degree delay\n
+        7. Draw polygon diagonals
+    </string>
+</resources>

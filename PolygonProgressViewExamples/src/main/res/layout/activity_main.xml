@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:apb="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="arthez.polygonprogressviewsexamples.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickInfoButton"
+            android:src="@mipmap/ic_info"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_description"
+            android:id="@+id/infoTextView"
+            android:textSize="15sp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="3"
+                android:id="@+id/polygon_example1"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="5"
+                android:id="@+id/polygon_example2"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="6"
+                android:id="@+id/polygon_example3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="3"
+                apb:draw_polygon_diagonals="true"
+                android:id="@+id/polygon_example4"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="5"
+                apb:draw_polygon_diagonals="true"
+                android:id="@+id/polygon_example5"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="6"
+                apb:draw_polygon_diagonals="true"
+                android:id="@+id/polygon_example6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="3"
+                apb:progressBar_color="@color/colorAccent"
+                apb:polygon_animation_degree_delay="180"
+                apb:animation_duration="4000"
+                android:id="@+id/polygon_example7"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="5"
+                apb:progressBar_color="@color/colorAccent"
+                apb:polygon_animation_degree_delay="180"
+                apb:animation_duration="4000"
+                android:id="@+id/polygon_example8"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="6"
+                apb:progressBar_color="@color/colorAccent"
+                apb:polygon_animation_degree_delay="180"
+                apb:animation_duration="4000"
+                android:id="@+id/polygon_example9"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="3"
+                apb:draw_polygon_diagonals="true"
+                apb:polygon_animation_degree_delay="180"
+                apb:animation_duration="4000"
+                apb:progressBar_color="@color/colorAccent"
+                android:id="@+id/polygon_example10"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="5"
+                apb:draw_polygon_diagonals="true"
+                apb:polygon_animation_degree_delay="180"
+                apb:animation_duration="4000"
+                apb:progressBar_color="@color/colorAccent"
+                android:id="@+id/polygon_example11"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="6"
+                apb:draw_polygon_diagonals="true"
+                apb:polygon_animation_degree_delay="180"
+                apb:animation_duration="4000"
+                apb:progressBar_color="@color/colorAccent"
+                android:id="@+id/polygon_example12"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="8"
+                apb:polygon_animation_degree_delay="180"
+                apb:animation_duration="3000"
+                apb:progressBar_color="@color/colorPrimary"
+                android:id="@+id/polygon_example13"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="8"
+                apb:polygon_animation_degree_delay="90"
+                apb:animation_duration="3000"
+                apb:progressBar_color="@color/colorPrimary"
+                android:id="@+id/polygon_example14"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="8"
+                apb:polygon_animation_degree_delay="45"
+                apb:animation_duration="3000"
+                apb:progressBar_color="@color/colorPrimary"
+                android:id="@+id/polygon_example15"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="8"
+                apb:polygon_animation_degree_delay="180"
+                apb:animation_duration="3000"
+                apb:number_of_progressBar_polygons="3"
+                apb:progressBar_color="@color/colorPrimary"
+                android:id="@+id/polygon_example16"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="8"
+                apb:polygon_animation_degree_delay="90"
+                apb:animation_duration="3000"
+                apb:number_of_progressBar_polygons="9"
+                apb:progressBar_color="@color/colorPrimary"
+                android:id="@+id/polygon_example17"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:number_of_progressBar_polygonSides="8"
+                apb:polygon_animation_degree_delay="45"
+                apb:animation_duration="3000"
+                apb:number_of_progressBar_polygons="15"
+                apb:progressBar_color="@color/colorPrimary"
+                android:id="@+id/polygon_example18"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:polygon_animation_degree_delay="15"
+                apb:number_of_progressBar_polygons="8"
+                apb:animation_duration="2000"
+                apb:progressBar_color="@android:color/holo_green_dark"
+                android:id="@+id/polygon_example19"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:polygon_animation_degree_delay="45"
+                apb:number_of_progressBar_polygons="8"
+                apb:animation_duration="2000"
+                apb:progressBar_color="@android:color/holo_green_dark"
+                android:id="@+id/polygon_example20"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:polygon_animation_degree_delay="60"
+                apb:number_of_progressBar_polygons="8"
+                apb:animation_duration="2000"
+                apb:progressBar_color="@android:color/holo_green_dark"
+                android:id="@+id/polygon_example21"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:polygon_animation_degree_delay="360"
+                apb:number_of_progressBar_polygons="8"
+                apb:animation_duration="2000"
+                apb:progressBar_color="@android:color/holo_green_dark"
+                android:id="@+id/polygon_example22"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:polygon_animation_degree_delay="20"
+                apb:number_of_progressBar_polygons="8"
+                apb:animation_duration="1000"
+                apb:progressBar_color="@android:color/holo_green_dark"
+                android:id="@+id/polygon_example23"/>
+
+            <arthur.hexagonprogressanimation.PolygonProgressBar
+                style="@style/DefaultPolygonProgressBarAttributes"
+                apb:polygon_animation_degree_delay="5"
+                apb:number_of_progressBar_polygons="8"
+                apb:animation_duration="2000"
+                apb:progressBar_color="@android:color/holo_green_dark"
+                android:id="@+id/polygon_example24"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
